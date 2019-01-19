@@ -1,6 +1,6 @@
 var request = require('request');
 
-r = request('https://duckduckgo.com/');
+r = request('https://www.pluralsight.com/');
 
 r.on('data', function (data) {
     console.log('Data');
