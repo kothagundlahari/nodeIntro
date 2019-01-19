@@ -14,7 +14,6 @@ var getResource = (c) => {
         }, 10);
     });
 return e
-
 };
 
 var r = getResource(5);
