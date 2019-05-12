@@ -12,7 +12,7 @@ var getResource = (c) => {
                 clearInterval(t)
                 console.log('some thing');
                 console.log('some thing3');
-                console.log('some thing2');
+                console.log('some thing4');
             }
         }, 10);
     });
