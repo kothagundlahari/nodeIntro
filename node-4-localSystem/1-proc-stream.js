@@ -9,4 +9,5 @@ process.stdin.on('data', function (data1) {
 
 process.stdin.on('end', function () {
    process.stderr.write('End\n');
+   console.log('this is a test statement');
 });
