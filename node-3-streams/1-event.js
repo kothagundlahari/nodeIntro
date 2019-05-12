@@ -10,6 +10,7 @@ var getResource = (c) => {
             if (count === c) {
                 e.emit('end', count);
                 clearInterval(t)
+                console.log('some thing');
             }
         }, 10);
     });
