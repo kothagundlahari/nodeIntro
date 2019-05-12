@@ -11,6 +11,7 @@ var getResource = (c) => {
                 e.emit('end', count);
                 clearInterval(t)
                 console.log('some thing');
+                console.log('some thing3');
             }
         }, 10);
     });
